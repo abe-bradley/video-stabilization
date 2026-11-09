@@ -1,0 +1,25 @@
+{
+  "kind": "descriptive reference, not a configuration file loaded by the code",
+  "script": "sunrise/stabilize_sunrise.py",
+  "case": "Kerkyra sunrise from a fast-moving boat",
+  "source": "sunrise_source.mov",
+  "source_width": 1920,
+  "source_height": 1080,
+  "source_frames": 658,
+  "source_fps": "30/1",
+  "analysis_width": 960,
+  "analysis_height": 540,
+  "output_end_exclusive": 650,
+  "horizontal_method": "hybrid island velocity then compact solar core",
+  "early_island_end_exclusive": 175,
+  "sun_handoff_end_exclusive": 235,
+  "constraints": ["shoreline angle", "shoreline y", "sun x"],
+  "preserved_motion": "sun vertical rise",
+  "render": {"codec": "H.264", "crf": 16, "preset": "slow", "audio": false},
+  "notes": [
+    "Use analyze followed by hybrid; all runs the older sun-only workflow.",
+    "The 175 and 235 boundaries are constants inside the hybrid path.",
+    "The source's clean dark-land-above/bright-water-below boundary is the measured horizon.",
+    "One literal second pass was a measured experiment; no repeated-iteration guarantee is implied."
+  ]
+}

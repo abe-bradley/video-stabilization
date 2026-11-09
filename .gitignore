@@ -1,0 +1,35 @@
+# Local environments and Python byproducts
+.venv/
+venv/
+.deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# New footage, renders, runs, and analysis caches
+*.mov
+*.MOV
+*.mp4
+!examples/media/*.mp4
+raw/
+originals/
+outputs/
+runs/
+**/Diagnostics*/
+**/analysis_*/
+
+# Packaging outputs
+dist/
+build/
+*.zip
+*.sha256
+/SHA256SUMS.txt
+
+# Local credentials/config
+.env
+.env.*
+!.env.example
+**/Local settings/
+*.local.json

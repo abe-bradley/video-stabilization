@@ -1,0 +1,18 @@
+{
+  "kind": "included visual proxies; not original camera inputs",
+  "total_bytes": 11820326,
+  "width": 640,
+  "height": 360,
+  "fps": "30/1",
+  "video": "H.264 Constrained Baseline",
+  "license": "MEDIA_LICENSE.md",
+  "files": [
+    {"path": "examples/media/sunrise_source.mp4", "bytes": 1791296, "sha256": "f778fa28f20db587d38598270c078a2434176f343743e39cea3e9e6bc2114603", "video_frames": 658, "duration_seconds": 21.933333, "audio": false},
+    {"path": "examples/media/sunrise_sun-only.mp4", "bytes": 1774299, "sha256": "538c92e4a1a06a4dc2867d1b87e63290661e23b063cf2b0a831bdcc0afe22f78", "video_frames": 650, "duration_seconds": 21.666667, "audio": false},
+    {"path": "examples/media/sunrise_sun-land.mp4", "bytes": 1773620, "sha256": "359d26b71ea2c466720e6bf5398223764420c572286f45682ada9989efa90788", "video_frames": 650, "duration_seconds": 21.666667, "audio": false},
+    {"path": "examples/media/sunrise_sun-land-2pass.mp4", "bytes": 1774436, "sha256": "3650a97dd458f39ff5ca0350b17d5aef1ee1c1e0ef17a309805b26572fbca4bc", "video_frames": 650, "duration_seconds": 21.666667, "audio": false},
+    {"path": "examples/media/airplane_source.mp4", "bytes": 1601387, "sha256": "6b88b893c360f5c20146d5e759724d2d736e65bb2d12e1b85e4fd46a2217c05a", "video_frames": 611, "duration_seconds": 20.393, "audio": "AAC stereo"},
+    {"path": "examples/media/airplane_plane-lock.mp4", "bytes": 1517642, "sha256": "aabdb6bd5c7f575c581e63526324be0fb9191219414fd25767491ab648d2414f", "video_frames": 579, "duration_seconds": 19.326, "audio": "AAC stereo"},
+    {"path": "examples/media/airplane_plane-lock-refined.mp4", "bytes": 1587646, "sha256": "63699ecd3aadbd2c2e97663caca6821a97cd59d9142ec5622a74cd23fae4dd8b", "video_frames": 612, "duration_seconds": 20.4, "audio": "AAC stereo"}
+  ]
+}

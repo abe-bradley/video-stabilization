@@ -1,0 +1,22 @@
+name: Snapshot contents
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check preserved sources, syntax, docs, and media checksums
+        run: python tools/check_release.py
+      - name: Check private-settings and release-export behavior
+        run: python -m unittest discover -s tools -p "test_*.py"

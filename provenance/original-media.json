@@ -1,0 +1,51 @@
+{
+  "purpose": "Identifiers for original camera files and historical full-resolution renders; these files are not included in this release.",
+  "originals": [
+    {
+      "name": "sunrise_source.mov",
+      "bytes": 40543136,
+      "sha256": "9fd6c6acc69eb8a40fa9a5efcfb886892069b1dd31895e37dc99838659e4c53d",
+      "width": 1920,
+      "height": 1080,
+      "frames": 658,
+      "fps": "30/1",
+      "duration_seconds": 21.933333,
+      "video": "H.264, 8-bit, full-range BT.709",
+      "audio": "none"
+    },
+    {
+      "name": "airplane_source.MOV",
+      "bytes": 35217815,
+      "sha256": "02378055b3535fa703716c788f176b145dae6d5b5b06b8c6d7c92a2696691b89",
+      "width": 1920,
+      "height": 1080,
+      "frames": 1223,
+      "average_fps": "183450/3059",
+      "duration_seconds": 20.393333,
+      "video": "HEVC Main10, limited HLG/BT.2020, Dolby Vision profile 8.4 metadata",
+      "audio": "AAC-LC stereo plus Apple APAC and auxiliary streams"
+    }
+  ],
+  "historical_renders": [
+    {
+      "name": "sunrise_sun-land.mp4",
+      "bytes": 67092617,
+      "sha256": "c8e2a0017adf420d9b9186553cdb8d9c15b7fc5d28a25dfd007e25bdd1a9392a"
+    },
+    {
+      "name": "sunrise_sun-land-2pass.mp4",
+      "bytes": 65559108,
+      "sha256": "56308b16736caf9a3fa412a8dcaacecd88e976ed5fabeeac54725741189c418c7"
+    },
+    {
+      "name": "airplane_plane-lock.mp4",
+      "bytes": 26402483,
+      "sha256": "e9a8d4cc92f0fd3ece14dcaec2e271048ddd52fa431928e490d54583ee3dacf6"
+    },
+    {
+      "name": "airplane_plane-lock-refined.mp4",
+      "bytes": 21842614,
+      "sha256": "e6bad0d5526c309a0b0bea065374df73adec1609f6f5d29b029aa25e1c2ad674"
+    }
+  ]
+}

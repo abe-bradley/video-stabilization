@@ -1,0 +1,22 @@
+{
+  "release": "0.1.0",
+  "packaged_on": "2026-11-08",
+  "scope": "Byte-identical copies of the final working August 2026 scripts. No algorithm changes made for release.",
+  "files": [
+    {
+      "path": "sunrise/stabilize_sunrise.py",
+      "bytes": 60420,
+      "sha256": "8d02dda2fcb6081898720a388e8c07cc72962cd7478c7b526d730b3020cd6175"
+    },
+    {
+      "path": "sunrise/compare_feedback.py",
+      "bytes": 23734,
+      "sha256": "ced0c8ebfbe4e8ca1d37f0f88768a667c206917ac54f4ab3baf0df5b7601cd45"
+    },
+    {
+      "path": "airplane/stabilize_airplane.py",
+      "bytes": 64834,
+      "sha256": "cf810968700c040d8b33b9240dd0a095f8f1a3e44d1f208e32d0438d2276fa3b"
+    }
+  ]
+}

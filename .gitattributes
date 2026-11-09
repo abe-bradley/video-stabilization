@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.mp4 binary
+# Preserve the exact working snapshots, including original line endings.
+/sunrise/stabilize_sunrise.py -text
+/sunrise/compare_feedback.py -text
+/airplane/stabilize_airplane.py -text
