@@ -6,7 +6,7 @@ A convenient local layout is:
 
 ```text
 Media tools/
-  Video stabilizer/               # this Git repository
+  Video stabilization/            # this Git repository
   Releases/
     Video stabilizer/             # versioned ZIPs and checksum sidecars
   Local settings/

@@ -1,4 +1,4 @@
-# Video stabilizer
+# Video stabilization
 
 This is my Python code for stabilizing two videos I took from a boat near Corfu: a sunrise and a plane landing at Kerkyra airport.
 

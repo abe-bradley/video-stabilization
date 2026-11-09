@@ -1,8 +1,8 @@
 # Publishing this prepared release
 
-The release directory contains the repository contents. Publication target: [abe-bradley/video-stabilizer](https://github.com/abe-bradley/video-stabilizer). The local folder can remain named `Video stabilizer`, and the historical release archives retain their `kerkyra-stabilizer` filenames.
+The release directory contains the repository contents. Publication target: [abe-bradley/video-stabilization](https://github.com/abe-bradley/video-stabilization). The active local folder is named `Video stabilization`; historical release archives retain their `kerkyra-stabilizer` filenames.
 
-Repository name: `video-stabilizer`.
+Repository name: `video-stabilization`.
 
 Suggested description:
 
